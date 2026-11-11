@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mamta ممتا</title>
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=9">
+</head>
+<body>
+<header>
+  <img src="img/logo.png" alt="Mamta logo" style="width:44px;height:44px;border-radius:50%;background:#fff;padding:2px;cursor:pointer" onclick="go('#home')">
+  <h1 id="title">Mamta ممتا</h1>
+  <span id="live" class="live" style="display:none"></span>
+  <button id="homeBtn" onclick="go('#home')">⌂ Home</button>
+</header>
+<main id="view"></main>
+<div id="fabs" class="fabs"></div>
+
+<script src="js/firebase-config.js?v=9"></script>
+<script type="module" src="js/firebase-live.js?v=9"></script>
+<script defer src="js/app.js?v=9"></script>
+</body>
+</html>

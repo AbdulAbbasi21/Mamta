@@ -1,0 +1,15 @@
+# secrets
+.env
+**/.env
+service-account*.json
+**/service-account*.json
+*-firebase-adminsdk-*.json
+# python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+_to_delete/
+backend/demo_fixtures/tts_cache/

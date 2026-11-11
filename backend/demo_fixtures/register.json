@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "serial": "21",
+      "motherName": "Shabana Riaz",
+      "guardianName": "Muhammad Riaz",
+      "houseNo": "H-41",
+      "deliveryDate": "2026-11-08",
+      "deliveryPlace": "home",
+      "parity": 2,
+      "babySex": "F",
+      "babyBirthWeightKg": 2.7,
+      "vaccinesGiven": [
+        "BCG",
+        "OPV0"
+      ],
+      "pncVisitDates": [
+        "2026-11-09"
+      ],
+      "remarks": "",
+      "low_confidence": []
+    },
+    {
+      "serial": "22",
+      "motherName": "Zubaida Khatoon",
+      "guardianName": "Abdul Rasheed",
+      "houseNo": "H-17",
+      "deliveryDate": "2026-11-05",
+      "deliveryPlace": "facility",
+      "parity": 1,
+      "babySex": "M",
+      "babyBirthWeightKg": 2.2,
+      "vaccinesGiven": [
+        "BCG"
+      ],
+      "pncVisitDates": [],
+      "remarks": "weak baby?",
+      "low_confidence": [
+        "babyBirthWeightKg",
+        "deliveryDate"
+      ]
+    },
+    {
+      "serial": "23",
+      "motherName": "Sadia Bibi",
+      "guardianName": "Imran Khan",
+      "houseNo": "H-52",
+      "deliveryDate": "2026-11-10",
+      "deliveryPlace": "home",
+      "parity": 3,
+      "babySex": "M",
+      "babyBirthWeightKg": 3.2,
+      "vaccinesGiven": [],
+      "pncVisitDates": [],
+      "remarks": "",
+      "low_confidence": [
+        "guardianName"
+      ]
+    }
+  ],
+  "page_notes": "DEMO FIXTURE (offline). Row 22 weight and date were hard to read."
+}

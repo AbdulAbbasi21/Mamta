@@ -1,0 +1,15 @@
+rules_version = '2';
+// An LHW (signed in with Firebase Auth, uid == lhw id) can only read her own mothers, alerts and visits.
+// All writes go through the backend (firebase-admin bypasses these rules), so clients never write.
+// NOTE: the hackathon demo runs Firestore in test mode; deploy these with `firebase deploy --only firestore:rules`.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isLhw(lhwId) { return request.auth != null && request.auth.uid == lhwId; }
+
+    match /lhws/{lhwId}      { allow read: if isLhw(lhwId); allow write: if false; }
+    match /mothers/{id}      { allow read: if isLhw(resource.data.lhwId); allow write: if false; }
+    match /alerts/{id}       { allow read: if isLhw(resource.data.lhwId); allow write: if false; }
+    match /visits/{id}       { allow read: if isLhw(resource.data.lhwId); allow write: if false; }
+    match /checkins/{id}     { allow read: if isLhw(resource.data.lhwId); allow write: if false; }
+  }
+}

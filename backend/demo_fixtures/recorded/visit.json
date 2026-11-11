@@ -1,0 +1,12 @@
+{
+  "visitType": "routine",
+  "motherFindings": [],
+  "babyFindings": [],
+  "vaccinesGiven": [],
+  "counsellingDone": [],
+  "referral": false,
+  "referralReason": null,
+  "nextVisitDate": null,
+  "suggestedRiskStatus": "green",
+  "transcript": "abhi aap ki tabiyat kaisi hai"
+}

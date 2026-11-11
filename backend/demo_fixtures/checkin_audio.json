@@ -1,0 +1,13 @@
+{
+  "reply_ur": "آپ ابھی فوراً قریبی ہسپتال یا بی ایچ یو جائیں۔ ہم شازیہ بی بی کو ابھی اطلاع دے رہے ہیں۔ اکیلی نہ جائیں، گھر کے کسی فرد کو ساتھ لے جائیں۔",
+  "done": true,
+  "triage": "red",
+  "flags": [
+    "heavy_bleeding"
+  ],
+  "answers": {
+    "bleeding": "Heavy bleeding since yesterday, dizzy"
+  },
+  "transcript_turn": "کل سے بہت خون آ رہا ہے اور چکر آ رہے ہیں",
+  "confidence": 0.9
+}

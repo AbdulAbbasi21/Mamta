@@ -1,0 +1,23 @@
+{
+  "visitType": "routine",
+  "motherFindings": [
+    "No bleeding",
+    "Mild breast tenderness, improving"
+  ],
+  "babyFindings": [
+    "Feeding well",
+    "Weight gain normal"
+  ],
+  "vaccinesGiven": [
+    "OPV1"
+  ],
+  "counsellingDone": [
+    "breastfeeding",
+    "danger_signs"
+  ],
+  "referral": false,
+  "referralReason": null,
+  "nextVisitDate": "2026-11-18",
+  "suggestedRiskStatus": "green",
+  "transcript": "(DEMO FIXTURE) آج صائمہ سے ملی، خون نہیں آ رہا، چھاتی میں ہلکا درد ہے جو کم ہو رہا ہے۔ بچہ اچھا دودھ پی رہا ہے، وزن ٹھیک ہے۔ او پی وی ون کے قطرے پلائے۔ دودھ پلانے اور خطرے کی علامات پر بات کی۔ اگلے ہفتے دوبارہ آؤں گی۔"
+}

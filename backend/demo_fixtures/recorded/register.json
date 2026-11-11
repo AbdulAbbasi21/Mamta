@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "serial": "21",
+      "motherName": "Shabana Riaz",
+      "guardianName": "M. Riaz",
+      "houseNo": "41",
+      "deliveryDate": "2026-11-08",
+      "deliveryPlace": "home",
+      "parity": 2,
+      "babySex": "F",
+      "babyBirthWeightKg": 2.7,
+      "vaccinesGiven": [],
+      "pncVisitDates": [],
+      "remarks": null,
+      "low_confidence": []
+    },
+    {
+      "serial": "22",
+      "motherName": "Zubaida Khatoon",
+      "guardianName": "Abdul Rasheed",
+      "houseNo": "17",
+      "deliveryDate": "2026-11-05",
+      "deliveryPlace": "facility",
+      "parity": 1,
+      "babySex": "M",
+      "babyBirthWeightKg": 2.2,
+      "vaccinesGiven": [],
+      "pncVisitDates": [],
+      "remarks": null,
+      "low_confidence": [
+        "babyBirthWeightKg"
+      ]
+    },
+    {
+      "serial": "23",
+      "motherName": "Sadia Bibi",
+      "guardianName": "Imran Khan",
+      "houseNo": "52",
+      "deliveryDate": "2026-11-10",
+      "deliveryPlace": "home",
+      "parity": 3,
+      "babySex": "M",
+      "babyBirthWeightKg": 3.2,
+      "vaccinesGiven": [],
+      "pncVisitDates": [],
+      "remarks": null,
+      "low_confidence": []
+    }
+  ],
+  "page_notes": null
+}
